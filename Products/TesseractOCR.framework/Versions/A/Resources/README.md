@@ -1,4 +1,4 @@
-Tesseract OCR iOS 1.3 (XCode5 ready)
+Tesseract OCR iOS 1.31 (XCode5 ready)
 =================
 
 Tesseract OCR iOS is a Framework for iOS5+, also for armv7s.
@@ -9,7 +9,7 @@ It will help you to use OCR in a iOS project. Easy and fast.
 Attach the project
 =================
 
-Add the framework "TesseractOCR.framework" (you can drag&drop it) from the <strong>Products</strong> folder in this repo, to your XCode Project under your project
+Add the framework "TesseractOCR.framework" (you can drag&drop it) from the <strong>Products</strong> folder in this repo, to your XCode Project under the frameworks folder.
 <br />
 If you are masochist :) you can generate your TesseractOCR.framework building the TesseractOCRAggregate target. 
 <br />
@@ -44,15 +44,17 @@ Set Tesseract variable key to value. See http://www.sk-spell.sk.cx/tesseract-ocr
 For instance, use tessedit_char_whitelist to restrict characters to a specific set.
 <br />
 <br />
-<strong>updates in version 1.31</strong>  (11 october 2013, up to date with last https://github.com/ldiqual/tesseract-ios)
-<br />
-<br />
-XCode 5 ready!
-<br />
-Framework builded with the new Xcode 5.
-<br />
-<br />
-<pre><code>[tesseract clear]; //call Clear() end End() functions</code></pre>
+Updates in this version 
+=================
+- 11 october 2013, tesseract is up to date with last https://github.com/ldiqual/tesseract-ios version available.
+
+- Clear method updated:<pre><code>[tesseract clear]; //call Clear() end End() functions</code></pre>
+
+- XCode 5 ready!
+
+- Framework builded with the new Xcode 5.
+
+
 
 Dependencies
 =================
